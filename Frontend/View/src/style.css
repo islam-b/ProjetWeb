@@ -1,0 +1,170 @@
+.active_link{
+    width: 100%;
+    padding:3% 6%;
+    border-radius: 0px;
+    background-color: #fafafa;
+    color: #4F5B69 !important;
+    font-size: 18px;
+    text-align: right;
+
+}
+.cat-link{
+    width: 100%;
+    padding:3% 6%;
+    font-family: Dosis;
+    color: lightgrey;
+
+}
+.cat-link:hover {
+    width: 100%;
+    padding:3% 6%;
+    font-family: Dosis;
+    color: lightgrey;
+    text-decoration-line: none;
+    background-color: #4F5B69;
+}
+#conex_btn {
+    border-radius: 0px;
+    border-width: 1px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#deconex_btn {
+    border-radius: 0px;
+    border-width: 1px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#inscrip_link{
+    color:grey;
+    text-decoration-line: underline;
+}
+#inscrip_link:hover{
+    cursor: pointer;
+    color: #005cbf;
+    text-decoration-line: underline;
+}
+.show {
+    border: solid 2px #007bff;
+}
+#BODY {
+
+    margin:2%;
+    border: solid 2px #007bff;
+
+}
+.logo {
+   padding: 20px;
+    width: 80%;
+    height: 10%;
+    background-image: url("images/44.jpg");
+    background-size: cover;
+    border: solid #007bff;
+    border-width: 0px 1px;
+    min-height: 150px;
+    display: flex;
+
+
+}
+.logo img {
+     height: 100px;
+     width: 100px;
+ }
+.logo h1{
+    font-family: Dosis;
+    color: #18125A;
+    font-size: 30px;
+
+}
+
+#menu_container{
+
+    float: left;
+    background-color: #1C2B36;
+    width: 20%;
+    min-height: 700px;
+
+
+}
+
+#diapo_container {
+    text-align: center;
+    width: 80%;
+    overflow: hidden;
+    border: solid #007bff;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 0px 10px 10px;
+}
+.diapo{
+    height: 250px;
+
+}
+#content {
+    width: 80%;
+    min-height: 600px;
+    background-color: #fafafa;
+    padding-bottom: 10%;
+    min-height: 700px;
+
+
+}
+#categorie_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#publicite img{
+    width: 100%;
+    height: 150px;
+
+    margin-top: 70px;
+    border: solid 1px #17a2b8;
+
+}
+footer {
+    border: solid #007bff;
+    border-width: 30px 0px 0px 0px;
+    width: 100%;
+    min-height: 300px;
+    background-color: #1C2B36;
+    padding-bottom: 25px;
+
+}
+footer a {
+    font-size: 14px;
+    color: grey;
+}
+.card {
+
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+#m_page{
+    background-color: #1C2B36;
+}
+#comment_part {
+    background-color: #fafafa;
+
+    z-index: 2;
+
+}
+textarea {
+    max-height: 75px;
+}
+
+.fix {
+
+}
+
+.school_link {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    color: #0056b3;
+}
+
+.school_link:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
